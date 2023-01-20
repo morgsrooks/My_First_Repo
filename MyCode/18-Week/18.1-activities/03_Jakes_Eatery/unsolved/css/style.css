@@ -1,10 +1,12 @@
 /* Navigation styles */
 .logo {
     background: white;
-    height: 230px;
-    background-image: url("../images/jakes-logo.png");
+    height: 250px;
+    background-image: url("../images/Bob\'s_Burgers_logo.svg.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
+    margin: 20px;
   }
   
   .nav {
@@ -44,7 +46,7 @@
   }
   
   .left button {
-    background-color: skyblue;
+    background-color: red;
     color:black;
     font-size: 16px;
     padding: 15px;
@@ -69,18 +71,21 @@
   }
   .meal1 {
     margin-top:20px;
-    background-image: url("../images/steak.png");
+    background-image: url("../images/burger.jpg");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
   
   }
   .meal2 {
-    background-image: url("../images/soup.png");
+    background-image: url("../images/burger2.jpg");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
   }
   .meal3 {
-    background-image: url("../images/cheesecake.png");
+    background-image: url("../images/humanburger.jpeg");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -125,4 +130,3 @@
   .tw {
     color: yellow;
   }
-  
